@@ -1,1 +1,1 @@
-from translate2csv import translate2csv
+from .translate2csv import translate2csv
