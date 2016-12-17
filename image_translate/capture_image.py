@@ -21,7 +21,7 @@ def take_selfie_using_pygame(image_filename):
 def take_selfie_using_simple_cv(image_filename):
     # to capture a screen from camera
     # need to install python-opencv, pygame, numpy, scipy, simplecv
-    from SimpleCV import Image, Camera
+    from SimpleCV import Camera
 
     cam = Camera()
     img = cam.getImage()
@@ -34,8 +34,7 @@ def main():
     args = parser.parse_args()
 
     take_selfie = take_selfie_using_pygame
-    translated_result = take_selfie(args.image_filename)
-    return translated_result
+    take_selfie(args.image_filename)
 
 
 if __name__ == "__main__":
