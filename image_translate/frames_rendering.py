@@ -2,7 +2,6 @@
 import sys
 
 import pygame
-import Image
 from pygame.locals import *
 
 import opencv
@@ -23,7 +22,7 @@ def render_flipped_camera():
 
     fps = 30.0
     pygame.init()
-    window = pygame.display.set_mode((640, 480))
+    pygame.display.set_mode((640, 480))
     pygame.display.set_caption("WebCam Demo")
     screen = pygame.display.get_surface()
 
