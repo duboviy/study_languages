@@ -1,8 +1,8 @@
-<h1><img src="https://raw.githubusercontent.com/duboviy/study_languages/master/logo.png" height=85 alt="logo" title="logo"> Study languages</h1>
+<h1><img src="https://raw.githubusercontent.com/duboviy/study_languages/master/logo.png" height=85 alt="logo" title="logo"></h1>
 
 by [Eugene Duboviy](https://duboviy.github.io/)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/965a74c1645a4586a353a46e1e25146d)](https://www.codacy.com/app/dubovoy/study_languages?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=duboviy/study_languages&amp;utm_campaign=Badge_Grade) [![Code Health](https://landscape.io/github/duboviy/study_languages/master/landscape.svg?style=flat)](https://landscape.io/github/duboviy/study_languages/master) [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/duboviy/study_languages/) [![PRs & Issues Welcome](https://img.shields.io/badge/PRs%20&%20Issues-welcome-brightgreen.svg)](https://github.com/duboviy/study_languages/pulls) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/duboviy/study_languages/)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bcf9d0e12ca441f482f92602b31ea624)](https://www.codacy.com/app/dubovoy/study_languages?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=duboviy/study_languages&amp;utm_campaign=Badge_Grade) [![Code Health](https://landscape.io/github/duboviy/study_languages/master/landscape.svg?style=flat)](https://landscape.io/github/duboviy/study_languages/master) [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/duboviy/study_languages/) [![PRs & Issues Welcome](https://img.shields.io/badge/PRs%20&%20Issues-welcome-brightgreen.svg)](https://github.com/duboviy/study_languages/pulls) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/duboviy/study_languages/)
 
 Just some utilities and scripts made to help study languages that I have drafted up.
 
@@ -21,7 +21,7 @@ Behind the scenes translate2csv is using pytranslate APIs.
 
 Install using alternative command:
 ```
-$ pip install https://github.com/duboviy/study_languages/archive/master.zip
+>>> pip install https://github.com/duboviy/study_languages/archive/master.zip
 ```
 
 ## Supported python versions
@@ -30,7 +30,6 @@ $ pip install https://github.com/duboviy/study_languages/archive/master.zip
   * 3.4
   * 3.5
   * 3.6
-  * PyPy
 
 
 ## Basic usage examples
