@@ -1,0 +1,12 @@
+google-api-python-client==1.5.5
+
+# to capture a screen from camera
+pygame
+pygame_camera
+
+### to capture a screen from camera using SimpleCV / openCV
+# numpy
+# scipy
+# simplecv
+# opencv
+# PIL
