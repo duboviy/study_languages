@@ -66,7 +66,7 @@ def _get_image_content_label(photo_file):
     response = _send_request(service_request)
     label = _parse_response(response)
 
-    log.info('Found label: %s for %s' % (label, photo_file))
+    log.info('Found label: %s for %s', label, photo_file)
 
     return label
 
@@ -75,7 +75,7 @@ def image_translate(photo_file, output_lang, source_lang='en'):
     label = _get_image_content_label(photo_file)
     translated_result = translate.translator(source_lang, output_lang, label)
 
-    log.info('Translated result for label: %s is %s' % (label, translated_result))
+    log.info('Translated result for label: %s is %s', label, translated_result)
 
     return translated_result
 

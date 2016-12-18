@@ -10,8 +10,8 @@ import translate
 def _get_source_words(source):
     words = set()
 
-    with open(source, 'r') as file:
-        for line in file:
+    with open(source, 'r') as src_file:
+        for line in src_file:
             temp_words = re.split('[\W]', line)
 
             for word in temp_words:
@@ -28,7 +28,7 @@ def _divide_in_chunks(arr, el_count):
     end = el_count
 
     while end < len(arr):
-        log.info("Make chunk: #{0} #{1}".format(start, end))
+        log.info("Make chunk: %d %d", start, end)
         yield arr[start:end]
         start = end
         end += el_count
