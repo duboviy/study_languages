@@ -2,7 +2,7 @@
 import sys
 
 import pygame
-from pygame.locals import *
+from pygame.locals import QUIT, KEYDOWN
 
 import opencv
 #this is important for capturing/displaying images
