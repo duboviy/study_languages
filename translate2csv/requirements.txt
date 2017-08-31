@@ -1,1 +1,1 @@
-py-translate
+py-translate==1.0.3
