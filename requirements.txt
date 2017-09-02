@@ -1,5 +1,5 @@
-### this section is needed for translate2csv utility
-py-translate
+### this section is needed for all utilities in this repo
+py-translate==1.0.3
 
 
 ### this section is needed for image_translate scripts and utilities
